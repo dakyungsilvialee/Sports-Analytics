@@ -15,7 +15,7 @@ Cap Performance Index (CPI) = Base Salary/ Performance Rating
 Cap Performance Index (CPI): measures how economically efficient a player's contract is relative to their performance rating.
 
 ## Analysis - CPI Distribution
-Figure 1 shows a right-skewed frequency distribution of CPI. Given the total number of data points to be 325 (N=325), CPI outliers can be found outside of the ranges below:
+![Figure 1](https://github.com/dakyungsilvialee/Sports-Analytics/assets/105321151/c45db46f-80f0-4aac-8714-57b55fdd4f78) shows a right-skewed frequency distribution of CPI. Given the total number of data points to be 325 (N=325), CPI outliers can be found outside of the ranges below:
 Lower Outlier = Q1 - (1.5 * IQR)
 Upper Outlier = Q3 + (1.5 * IQR)
 
@@ -26,28 +26,3 @@ There are certain important assumptions made in deriving our conclusion of the 6
 - assume points, assists and turnovers to be the only measure of success for point guards.
  
 Given these assumptions, a General Manager can use the analysis results to assess whether a player is worth their contract in this particular season assuming standard team tactics. If a particular team has a unique playing style and the point guard has different success metrics under this playing style, then the general manager should adjust the performance rating formula accordingly. However, no matter how the performance rating is defined, the ratio of a player’s salary to the player’s performance will always provide insights into the cost-effectiveness of the player.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Figures and Tables
-Figured 1
-
-Figure 2
-
-Figure 3
-
