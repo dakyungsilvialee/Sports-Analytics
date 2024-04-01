@@ -15,9 +15,18 @@ Cap Performance Index (CPI) = Base Salary/ Performance Rating
 Cap Performance Index (CPI): measures how economically efficient a player's contract is relative to their performance rating.
 
 ## Analysis - CPI Distribution
-![Figure 1](https://github.com/dakyungsilvialee/Sports-Analytics/assets/105321151/c45db46f-80f0-4aac-8714-57b55fdd4f78) shows a right-skewed frequency distribution of CPI. Given the total number of data points to be 325 (N=325), CPI outliers can be found outside of the ranges below:
+![Figure 1](https://github.com/dakyungsilvialee/Sports-Analytics/assets/105321151/c45db46f-80f0-4aac-8714-57b55fdd4f78) 
+shows a right-skewed frequency distribution of CPI. Given the total number of data points to be 325 (N=325), CPI outliers can be found outside of the ranges below:
 Lower Outlier = Q1 - (1.5 * IQR)
 Upper Outlier = Q3 + (1.5 * IQR)
+
+![Figure 2](https://github.com/dakyungsilvialee/Sports-Analytics/assets/105321151/85da81ab-c551-4457-8f9e-4fcdc3cc21a6)
+displays a Bar Plot ranking these 6 players by CPI. In our analysis we classify all 6 as not “worth” their contract in the past season.
+Given a high CPI, there are two potential reasons: the case where a player has a very high salary or the case where the player has a very low-performance rating. 
+
+![Figure 3](https://github.com/dakyungsilvialee/Sports-Analytics/assets/105321151/60f86d22-cc54-4401-98b1-694c142624cc)
+To investigate further, a simple linear regression of the performance rating against salary for all players (in blue) and highlighted the six high CPI players in red, as shown in Figure 3. It's safe to conclude that the reasons behind a high CPI include both cases of high salary and low performance.
+
 
 ## Results
 There are certain important assumptions made in deriving our conclusion of the 6 players who are unworthy of their contract value.
